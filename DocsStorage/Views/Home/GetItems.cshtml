@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Document>
+@{
+    Layout = null;
+}
+@foreach (var item in Model)
+{
+    <tr id="@item.DocumentID">
+        <td>
+            @Html.DisplayFor(modelItem => item.Author)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentName).@Html.DisplayFor(modelItem => item.Exstension)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Description)
+        </td>
+        <td>
+            @item.LoadDate.ToString("d")
+        </td>
+        <td class="text-center">
+            <a href="@item.DownloadRef">Скачать</a>
+            <a class="text-danger" style="cursor:pointer" onclick="deleteDoc(@item.DocumentID, '@item.DocumentName')">Удалить</a>
+        </td>
+    </tr>
+}

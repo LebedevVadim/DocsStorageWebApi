@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsStorageWebApi", "DocsStorageWebApi\DocsStorageWebApi.csproj", "{AC90112C-DA51-43B9-9936-9C407A35E014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsStorage", "DocsStorage\DocsStorage.csproj", "{FB444F89-2BC5-4802-928D-732EACCD8EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC90112C-DA51-43B9-9936-9C407A35E014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC90112C-DA51-43B9-9936-9C407A35E014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC90112C-DA51-43B9-9936-9C407A35E014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC90112C-DA51-43B9-9936-9C407A35E014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB444F89-2BC5-4802-928D-732EACCD8EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB444F89-2BC5-4802-928D-732EACCD8EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB444F89-2BC5-4802-928D-732EACCD8EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB444F89-2BC5-4802-928D-732EACCD8EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {779B6EB8-E592-423E-974A-3A80DCCCDAD0}
+	EndGlobalSection
+EndGlobal
